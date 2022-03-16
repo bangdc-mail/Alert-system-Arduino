@@ -8,18 +8,18 @@ byte incomingByte;
 
 // -----------------------------------------------------------------------------
 // Your network SSID and password
-const char* ssid = "SCTV";
-const char* password = "18091999";
+const char* ssid = "YOUR WIFI"; //WIFINAME
+const char* password = "YOUR PASSWORD"; //PASSWORD
 
-const char* account_sid = "AC08d273f64d1c68db716c72d069c809ca";
-const char* auth_token = "8b92ebdca74d766a2230d22dc5cf5696";
-String from_number      = "+14322230407";
-String to_number        = "+84827552933";
+const char* account_sid = "YOUR SID"; //SID
+const char* auth_token = "AUTH TOKEN"; //TOKEN
+String from_number      = "Twilio NUMBER"; //Number of Twilio
+String to_number        = "YOUR NUMBER"; //Your number
 String message_body     = "Intruder Alert! Someone's in your house!!";
 
 // Find the api.twilio.com SHA1 fingerprint using,
 //  echo | openssl s_client -connect api.twilio.com:443 | openssl x509 -fingerprint
-const char fingerprint[] = "BC B0 1A 32 80 5D E6 E4 A2 29 66 2B 08 C8 E0 4C 45 29 3F D0";
+const char fingerprint[] = "BC B0 1A 32 80 5D E6 E4 A2 29 66 2B 08 C8 E0 4C 45 29 3F D0"; //Might be changed in the future, update on the Twilio Homepage
 
 // -----------------------------------------------------------------------------
 // Switch and LED light pins
